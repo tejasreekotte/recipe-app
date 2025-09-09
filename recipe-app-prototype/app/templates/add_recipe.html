@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Add a New Recipe</h2>
+<p>This is a placeholder form (not functional yet).</p>
+<form>
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input type="text" class="form-control" placeholder="Recipe Title">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Image URL</label>
+        <input type="text" class="form-control" placeholder="Image URL">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ingredients</label>
+        <textarea class="form-control" rows="3" placeholder="List ingredients..."></textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Instructions</label>
+        <textarea class="form-control" rows="4" placeholder="Write instructions..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Add Recipe</button>
+</form>
+{% endblock %}
